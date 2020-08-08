@@ -1,4 +1,4 @@
-package main
+package kata_2
 
 func CompareTriplets(a, b []int32) []int32 {
 	var sumA, sumB int32
@@ -12,5 +12,3 @@ func CompareTriplets(a, b []int32) []int32 {
 	}
 	return []int32{sumA, sumB}
 }
-
-func main() {}

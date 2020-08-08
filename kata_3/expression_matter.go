@@ -1,4 +1,4 @@
-package main
+package kata_3
 
 import "sort"
 
@@ -8,5 +8,3 @@ func ExpressionMatter(a int, b int, c int) int {
 	sort.Ints(arr)
 	return arr[len(arr)-1]
 }
-
-func main() {}

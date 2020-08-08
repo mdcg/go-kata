@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package kata_1
 
 func SimpleArraySum(ar []int32) int32 {
 	total := int32(0)
@@ -9,8 +7,4 @@ func SimpleArraySum(ar []int32) int32 {
 		total += a
 	}
 	return total
-}
-
-func main() {
-	fmt.Println(SimpleArraySum([]int32{1, 2, 3, 4, 5, 6}))
 }
